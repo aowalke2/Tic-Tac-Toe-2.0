@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    background-color: #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #0E0021;
+    padding: 25px 0px 25px 0px;
+    color: #FA8B60;
+    width: 100%;
+}
+
+.toe {
+    color: #EF6D3B;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 30px;
+    gap: 150px;
+}
+
+button {
+    height: 80px;
+    width: 180px;
+    background-color: #FA8B60;
+    border-width: 3px;
+    border-color: #0E0021;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    transition: 1ms;
+}
+
+button:active {
+    background-color: #EF6D3B;
+}
+
+.winner {
+    margin-top: 30px;
+    font-size: 50px;
+    height: 50px;
+}
+
+.gameboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    border: 4px solid #0E0021;
+}
+
+.square {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 160px;
+    transition: 1ms;
+}
+
+.square:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.reset-button {
+    margin-top: 30px;
+}
